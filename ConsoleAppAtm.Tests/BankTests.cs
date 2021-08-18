@@ -44,7 +44,6 @@ namespace ConsoleAppAtm.Tests
         {           
             // Arrange
             List<Bankakont> bankakontslst = new List<Bankakont>();
-            //Bankakont newKonto = new Bankakont { PinKode = 1123, Name = "kej", KontoValue =  100};
             Bankakont newKonto = new Bankakont(1123, "kej", 100);
 
             // Actual
