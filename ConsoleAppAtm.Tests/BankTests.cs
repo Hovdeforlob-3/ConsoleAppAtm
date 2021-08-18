@@ -84,7 +84,6 @@ namespace ConsoleAppAtm.Tests
         public void FindKonto_ShouldWork()
         {
             // Arrange
-            //var expeced = new Bankakont(1234, "Marius", 10000);
             Bankakont expeced = Bank.bKonto[0];
             // Actual
             var actual = Bank.FindKonto(1234);

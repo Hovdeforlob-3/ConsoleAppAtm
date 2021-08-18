@@ -26,11 +26,10 @@ namespace ConsoleAppAtm
                 if (Bank.CheakMonnyIsEnough(Konto, amount))
                 {
                     Bank.ExtratMonny(Konto, amount);
-                    Console.WriteLine("200 ok");
+                    Console.WriteLine("successful withdrawal");
                 }
                 else
                     throw new ArgumentException("You entede in an invalid amount", "amount");
-               
             }
             else
                 throw new ArgumentException("You entede in an invalid pin", "pinkode");
